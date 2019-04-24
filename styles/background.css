@@ -1,0 +1,124 @@
+div#y {
+	width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+	background-color: inherit;
+        background-size: cover;
+}
+
+div.bullet {
+	width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        background-color: #F8A434;
+        background-size: cover;
+	-webkit-animation-name: result;
+    	-webkit-animation-duration: 0s;
+    	animation-name: result;
+    	animation-duration: 0s;
+        animation: fadein 1s;
+
+}
+
+@keyframes result {
+ 	0%   { left:-1000px; top:0px;}
+    	100%  { left:0px; top:0px;}  
+}
+
+div.shot {
+	width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+	background-color: inherit;
+        background-size: cover;
+    	-webkit-animation-name: back;
+    	-webkit-animation-duration: 0s;
+    	animation-name: back;
+    	animation-duration: 0s;
+        animation: fadein 1s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@keyframes back {
+ 	0%   { left:1000px; top:0px;}
+    	100%  { left:0px; top:0px;} 
+}
+
+#next {
+	right: 5%;
+	bottom: 30%;
+	background-color:#212121;
+	border-radius:10px;
+	border:1px solid #212121;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:2vw;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5c403e;
+	height: 8%;
+	width: 7%; 
+}
+
+#next:hover {
+	background-color:#000000;
+}
+
+#previous {
+	top: 40%;
+	left: 5%;
+        background-color:#ffec64;
+        border-radius:10px;
+        border:1px solid #ffec64;
+        display:inline-block;
+        cursor:pointer;
+        color:#333333;
+        font-family:Arial;
+        font-size:2vw;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #ffee66;
+	height: 8%;
+        width: 7%;
+}
+
+#previous:hover {
+	background-color: #ffab23;
+}
+
+#open {
+
+        left: 13%;
+        bottom: 27%;
+        background-color:#fe1a00;
+        border-radius:10px;
+        border:1px solid #d83526;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:2vw;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #b23e35;
+        height: 8%;
+        width: 8%;
+}
+
+#open:hover {
+        background-color:#ce0100;
+}
+
+button.visible {
+	position: absolute;
+}
+

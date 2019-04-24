@@ -1,0 +1,170 @@
+html {
+   height: 100%;
+}
+
+body {
+   height: 95%;
+   overflow: auto;
+}
+
+#body_demo {
+   background: orange;
+   background: linear-gradient(orange, white);
+}
+
+#body {
+   background: darkred;
+   background: linear-gradient(darkred, white);
+}
+
+#body_pro {
+   background: black;
+   background: linear-gradient(black, white);
+}
+
+h1 {
+   position: fixed;
+   top: -10%;
+   left: 0%;
+   font-size: 21vw;
+   transform: scale(1,2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#knoxss_demo {
+   color: black;
+}
+
+#knoxss {
+   color: black;
+}
+
+#knoxss_pro {
+   color: dimgrey;
+}
+
+
+#div_target {
+   position: absolute;
+   top: 10%;
+   left: 10%;
+   background: white;
+   opacity: 0.8;
+   height: 71%;
+   width: 80%;
+   border-radius: 5px 5px 5px 5px;
+   word-wrap: break-word;
+   overflow: auto;
+}
+
+#info {
+   margin: 10px;
+}
+
+#target {
+   display: block;
+   position: relative;
+   width: 90%;
+   font-size: 300%;
+   margin: 10px;
+   border-radius: 5px 5px 5px 5px;
+}
+
+#post {
+   font-size: 16px;
+}
+
+.extra {
+   resize:none;
+   display: block;
+   position: relative;
+   display: block;
+   width: 50%;
+   margin: 10px;
+   border-radius: 3px 3px 3px 3px;
+}
+
+.mode {
+   width: 1em;
+   margin-left: 10px;
+}
+
+input[type="submit"] {
+   float: right;
+   position: relative;
+   font-size: 150%;
+   margin-right: 9%;
+   height: 50px;
+   background-color: black;
+   border-radius: 5px 5px 5px 5px;
+}
+
+#submit_demo {
+  color: black;
+  background-color: orange;
+}
+
+#submit {
+  color: white;
+  background-color: darkred;
+}
+
+#submit_pro {
+  color: white;
+  background-color: black;
+}
+
+
+progress {
+   position: absolute;
+   margin: 3px;
+}
+
+.error {
+   color: red;
+}
+
+.found {
+   color: blue;
+}
+
+.copyright {
+   display: block;
+   position: relative;
+   font-size: 80%;
+   text-align: center;
+   vertical-align: middle;   
+}
+
+#copyright_demo {
+   color: black;
+}
+
+#copyright {
+   color: white;
+}
+
+#copyright_pro {
+   color: white;
+}
+
+.div_footer {
+   position: absolute;
+   bottom: 0%;
+   left: 0%;
+   width: 100%;
+}
+
+#div_footer_demo {
+   background: orange;
+}
+
+#div_footer {
+   background: darkred;
+}
+
+#div_footer_pro {
+   background: black;
+}

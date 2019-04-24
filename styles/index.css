@@ -1,0 +1,173 @@
+body {
+  color: #FDFCFB;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: -40 auto;
+  animation: fade_body 1s;
+  overflow: hidden;
+}
+
+body#demo {
+  background: #F8A434;
+}
+
+body#std {
+  background: darkred;
+}
+
+body#pro {
+  background: dimgrey;
+}
+
+@keyframes fade_body {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+form {
+  width: 60%;
+  margin: 17% auto;
+}
+
+
+.header {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+
+.description {
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.3em;
+  margin: -2px 0 45px;
+}
+
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+
+.button {
+  height: 44px;
+  border: none;
+}
+
+
+#target {
+  width: 85%;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+
+#submit {
+  width: 15%;
+  height: 46px;
+  background: #1A1A1A;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+
+#submit:hover {
+  background: #000000;
+}
+  
+
+input:focus {
+  outline: none;
+  outline: 2px solid #000000;
+  box-shadow: 0 0 2px #000000;
+}
+
+textarea:focus {
+  outline: none;
+  outline: 2px solid #000000;
+  box-shadow: 0 0 2px #000000;
+}
+
+#copyright {	
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.extra:hover,
+.extra:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#extra_data {
+  width: 40%;
+  height: 200px;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  resize: none;
+  padding-top: 1em;
+  padding-left: 1em;
+}
+
+#poc:hover,
+#poc:focus {
+  color: blue;
+}
+
+@media only screen and (max-width: 500px) {
+
+    form {
+    	width: 90%;
+    }
+
+    #target, #target[placeholder] {
+	position: fixed;
+        top: 40%;
+        width: 87%;
+        border-radius: 5px 5px 5px 5px;
+	text-align:center;
+    }
+
+    #submit {
+        position: fixed;
+        top: 50%;
+        width: 87%;
+ 	border-radius: 5px 5px 5px 5px;
+    }
+
+    .extra {
+	color: black;
+        position: fixed;
+        top: 65%;
+        left: 42%;
+    }
+   
+    #extra_data {
+	width: 80%;
+	height: 100px;
+    }
+
+    #poc {
+	color: blue;
+	left: 33%;
+    }
+
+}
